@@ -1,1 +1,25 @@
-print("My name is Ramony")
+#Crie um novo repositório na linha de comando:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LRamony/Aprendendo-GitHub-Novamente.git
+git push -u origin main
+
+#Ou envie um repositório existente a partir da linha de comando:
+
+git remote add origin https://github.com/LRamony/Aprendendo-GitHub-Novamente.git
+git branch -M main
+git push -u origin main
+
+
+-----------------------------------------------Coso seja iniciante------------------------------------------
+#git init < serve para iniciar o github
+#git status < serve para ver os status do seu git
+#git add <Nome d arquivos> < Para adicionar o arquivo ao git
+#git add . < Permite subir varios arquivos ao mesmo tempo
+#git commit -m "" < Sempre tem q rodar esse comando para comentar e subir seu primeiro codigo
+#Depois desses passos ele pode lhe pedir pra configurar seu login e senha do git
+
+#Como enviar suas alterações usando o git Push
+

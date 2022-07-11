@@ -21,5 +21,11 @@ git push -u origin main
 #git commit -m "" < Sempre tem q rodar esse comando para comentar e subir seu primeiro codigo
 #Depois desses passos ele pode lhe pedir pra configurar seu login e senha do git
 
-#Como enviar suas alterações usando o git Push
-
+#git branch < mostra em qual branch vc esta trabalhando
+#git checkout <Nome da branch> < Muda para a branch desejada
+#git checkout -b <Nome da branch> < Cria e seta para a nova branch
+#git reflog < serve para ver o historico das atualizações
+#git reset --hard <ID pego com o reflog> < Como navegar entre versões do seu código
+#git merge <Nome na branch> < Como unir as branch ou código
+#git pull < serve para atualizar o codigo na sua maquina com o codigo no github
+#touch .gitignore < So salvar dentro desse arquivo o q deseja q seja ignorado

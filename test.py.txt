@@ -38,3 +38,6 @@ python -m pip install virtualenv
 
 #Como criar um ambiente virtual (win+r)
 appdata\local\programs\python\Scripts\virtualenv.exe <Nome do seu projeto>\Scritps\activate
+
+#Como entrar na maquina virtual:
+<Nome da MVirtual>\Scripts\activate
